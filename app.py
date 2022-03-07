@@ -12,7 +12,7 @@ def chicken_salad():
 
 @app.route("/pbj")
 def pbj():
-    return render_template("PBJ.html")
+    return render_template("pbj.html")
 
 @app.route("/scrambled-eggs")
 def scrambled_eggs():
